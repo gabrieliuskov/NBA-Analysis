@@ -1,0 +1,43 @@
+.navbar {
+    width: 100vw;
+    margin-left: -12px;
+    margin-right: -10px;
+}
+
+.dropdown {
+    padding: 6px 20px 0;
+    justify-content: center;
+}
+
+.button {
+
+    margin: 8px 20px 0;
+}
+
+legend {
+    margin: 0;
+    padding: 5px 0 0;
+    font-size: 18px;
+}
+
+.dash_legend {
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+    font-style: italic;
+}
+
+label {
+    text-align: center;
+    justify-content: center;
+    margin:0 0 5px;
+    font-size: 30px;
+}
+hr {
+    margin-bottom: -5px;
+    font-style: italic;
+}
+
+.graficos {
+    margin: 5px -4px 5px;
+}
