@@ -4,9 +4,6 @@ dash-bootstrap-templates==1.0.8
 dash-core-components==2.0.0
 dash-html-components==2.0.0
 dash-table==5.0.0
-Flask @ file:///croot/flask_1671217343254/work
 gunicorn==20.1.0
 nba-api==1.2.1
-numpy @ file:///croot/numpy_and_numpy_base_1672336185480/work
 pandas==1.5.3
-plotly @ file:///tmp/abs_7afcdfad-dbbb-49d2-adea-186abf525c45jbnd8p95/croots/recipe/plotly_1658160053621/work
