@@ -354,13 +354,13 @@ def cria_data(n_clicks, home_value, away_value, season):
         for i in [home_value, away_value, home_value, away_value]:
 
             if k == 0:
-                df_casa = leaguegamefinder.LeagueGameFinder(team_id_nullable=i, timeout=90)
+                df_casa = leaguegamefinder.LeagueGameFinder(team_id_nullable=i, timeout=40)
             elif k == 1:
-                df_casa = leaguegamefinder.LeagueGameFinder(team_id_nullable=i, timeout=90)
+                df_casa = leaguegamefinder.LeagueGameFinder(team_id_nullable=i, timeout=40)
             elif k == 2:
-                df_casa = leaguegamefinder.LeagueGameFinder(vs_team_id_nullable=i, timeout=90)
+                df_casa = leaguegamefinder.LeagueGameFinder(vs_team_id_nullable=i, timeout=40)
             else:
-                df_casa = leaguegamefinder.LeagueGameFinder(vs_team_id_nullable=i, timeout=90)
+                df_casa = leaguegamefinder.LeagueGameFinder(vs_team_id_nullable=i, timeout=40)
             
             
             df_casa = df_casa.get_data_frames()[0]
