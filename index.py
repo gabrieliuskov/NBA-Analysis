@@ -4,6 +4,7 @@ from app import *
 from layout import *
 from data import *
 
+server = app.server
 app.layout = dbc.Container(
     [
         dcc.Location(id="url"),
